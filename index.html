@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe Game</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+	<style type="text/css">
+		.cell {
+			width: 80px;
+			height: 80px;
+		}
+
+		table.table-bordered{
+		    border:2px solid black;
+		  }
+
+		table.table-bordered > tbody > tr > td{
+		    border:2px solid black;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="container" style="padding-top: 100px">
+		<div class="card text-center mx-auto" style="max-width: 300px;">
+			<div class="card-header">
+				<h2>Tic Tac Toe</h2>
+			</div>
+			<div class="card-body" style="background:linear-gradient(#f7aeb7, #ffcccc, #ffeee6">
+				<table class="table table-bordered">
+					<tbody>
+						<tr>
+							<td class="cell" id="0"></td>
+							<td class="cell" id="1"></td>
+							<td class="cell" id="2"></td>
+						</tr>
+						<tr>
+							<td class="cell" id="3"></td>
+							<td class="cell" id="4"></td>
+							<td class="cell" id="5"></td>
+						</tr>
+						<tr>
+							<td class="cell" id="6"></td>
+							<td class="cell" id="7"></td>
+							<td class="cell" id="8"></td>
+						</tr>
+					</tbody>
+				</table>	
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>
